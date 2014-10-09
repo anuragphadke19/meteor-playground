@@ -1,0 +1,57 @@
+body {
+    font-family: Lora, sans-serif;
+    font-size: 1.15em;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+p {
+    font-family: Lora, sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.header h1 {
+    padding-bottom: 19px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+small{
+    font-size: 150%;
+}
+.desc{
+    clear: both;
+}
+.main{
+    padding-top: 20px;
+}
+a:link{  
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: #2A6496;
+}
+a:hover{
+    background-color: #3071A9;
+}
+article{
+    margin-bottom: 4em;
+}
+footer{
+    text-align: center;       
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}      
