@@ -1,3 +1,15 @@
 <template name="postsList">
-    Nothing to see here folks!
+	{{#if postsAvailable}}
+	    <div class="text-center">Nothing to see here folks!</div>
+    {{else}}
+    <ul class="postlist list-unstyled">
+		{{#each posts}}
+			<li>
+    			<h4>{{title}}</h4>
+    			<p>{{story}}</p>
+    			<p class="text-right">by <i>{{author}}</i> {{prettifyDate createdOn}}</p>
+    		</li>
+		{{/each}}
+	</ul>
+	{{/if}}
 </template>

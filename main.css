@@ -28,6 +28,19 @@ small{
 }
 .main{
     padding-top: 20px;
+    padding-bottom: 40px;
+}
+.postlist li{
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 10px 5px 20px #888888;
+    border-radius: 10px;
+}
+.postlist li:nth-child(2n+1){
+    background-color: #eee;
+}
+.postlist li:nth-child(2n+2){
+    background-color: #9cd1f0;
 }
 a:link{  
     text-decoration: none;
