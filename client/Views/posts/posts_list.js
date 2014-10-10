@@ -3,6 +3,6 @@ Template.postsList.helpers({
 		return Posts.find().count() === 0 ? true : false;
 	},
 	posts: function(){
-		return Posts.find();
+		return Posts.find({}, {sort : {createdOn : -1}});
 	}
 });
